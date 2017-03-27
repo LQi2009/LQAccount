@@ -1,0 +1,23 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (4.0.4)
+  - Masonry (1.0.0)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - FMDB
+  - IQKeyboardManager
+  - Masonry
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: ced001a62ce42a774609d91a6f7e1afb983d1fc5
+
+COCOAPODS: 1.0.1
