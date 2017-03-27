@@ -27,22 +27,33 @@ APP的整体功能仅是保存个人的一些信息, 然后辅助各种安全验
 
 ### 一些截图
 安全验证界面
+<br>
 ![安全验证界面](http://upload-images.jianshu.io/upload_images/1928848-62ada81ae8ae8b4a.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 分组界面
+<br>
 ![分组界面](http://upload-images.jianshu.io/upload_images/1928848-67466d3ecefa2ad3.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 搜索界面
+<br>
 ![搜索界面](http://upload-images.jianshu.io/upload_images/1928848-904ed99d900e56af.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 设置界面
+<br>
 ![设置界面](http://upload-images.jianshu.io/upload_images/1928848-9b1425bfa3abc531.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 详情界面
+<br>
 ![详情界面](http://upload-images.jianshu.io/upload_images/1928848-73a53b956d392e63.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 手势设置页
+<br>
 ![手势设置页](http://upload-images.jianshu.io/upload_images/1928848-5aba7191de899756.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 数字密码设置页
+<br>
 ![数字密码设置页](http://upload-images.jianshu.io/upload_images/1928848-79b058ba9a3a8f03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+# 欢迎Star,或者Fork, 联系我: 302934443, [简书](http://www.jianshu.com/u/2846c3d3a974)
+# (完)
