@@ -1,4 +1,6 @@
 # LDAccount
+项目地址: [LDAccount](https://github.com/LQQZYY/LDAccount), 欢迎star, fork!!!
+
 ### 说明
 自己设计, 编写的一个小APP, 用于保护日常使用的各种账号, 密码等信息, 所有的信息加密后, 保存到本地数据库, 并可同步到iCloud, 可在设备间进行共享.
 APP功能简单, 界面元素较少, 逻辑简单, 可作为入门级的APP来练习.
@@ -12,33 +14,34 @@ APP的整体功能仅是保存个人的一些信息, 然后辅助各种安全验
 除了以上必需的功能, 此项目还使用了iCloud数据同步备份, 及3DTouch快速新增保存新
 
 ### 工具类
-- LZSqliteTool : 数据库相关操作的封装工具;
-- LZSortClass : 对字符串或者模型进行排序的工具类;
-- LZiCloud : iCloud云同步/存储的操作工具类, 里面的 LZiCloudDocument 是操作iCloud的另一种方式, 此方法有个问题, 在设备间同步的时候, 数据的存取会有问题, 所以没有采用;
+- [LZTabBarController](https://github.com/LQQZYY/LZTabBarController) : 自定义tabBarController;
+- [LZSqliteTool](https://github.com/LQQZYY/LZSqliteTool) : 数据库相关操作的封装工具;
+- [LZSortTool](https://github.com/LQQZYY/LZSortTool) : 对字符串或者模型进行排序的工具类; 
+- [LZiCloud](https://github.com/LQQZYY/LZiCloudDemo) : iCloud云同步/存储的操作工具类, 里面的 LZiCloudDocument 是操作iCloud的另一种方式, 此方法有个问题, 在设备间同步的时候, 数据的存取会有问题, 所以没有采用;
 - LZStringEncode : 针对本项目需求定制的编解码工具类;
-- LZPasswordViewController: 模仿系统数字密码界面, 在设置模块下的"设置数字密码"(LZClass)分组内 ;
+- [LZPasswordViewController](https://github.com/LQQZYY/LZPasswordViewController): 模仿系统数字密码界面, 在设置模块下的"设置数字密码"(LZClass)分组内 ;
 - LZGestureSecurity : 手势密码绘制类, 在设置模块下的"设置手势密码"分组内 ;
 
 此项目的整体代码量不是很大, 其他的细节可以直接阅读项目代码.
 
 ### 一些截图
-
+安全验证界面
 ![安全验证界面](http://upload-images.jianshu.io/upload_images/1928848-62ada81ae8ae8b4a.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+分组界面
 ![分组界面](http://upload-images.jianshu.io/upload_images/1928848-67466d3ecefa2ad3.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+搜索界面
 ![搜索界面](http://upload-images.jianshu.io/upload_images/1928848-904ed99d900e56af.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+设置界面
 ![设置界面](http://upload-images.jianshu.io/upload_images/1928848-9b1425bfa3abc531.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+详情界面
 ![详情界面](http://upload-images.jianshu.io/upload_images/1928848-73a53b956d392e63.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+手势设置页
 ![手势设置页](http://upload-images.jianshu.io/upload_images/1928848-5aba7191de899756.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+数字密码设置页
 ![数字密码设置页](http://upload-images.jianshu.io/upload_images/1928848-79b058ba9a3a8f03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
