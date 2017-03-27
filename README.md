@@ -1,5 +1,6 @@
 # LDAccount
-项目地址: [LDAccount](https://github.com/LQQZYY/LDAccount), 欢迎star, fork!!!
+
+##### 欢迎Star,或者Fork, 联系我: 302934443, [简书](http://www.jianshu.com/u/2846c3d3a974)
 
 ### 说明
 自己设计, 编写的一个小APP, 用于保护日常使用的各种账号, 密码等信息, 所有的信息加密后, 保存到本地数据库, 并可同步到iCloud, 可在设备间进行共享.
