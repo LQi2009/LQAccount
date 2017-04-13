@@ -38,13 +38,6 @@
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
     [SVProgressHUD setMinimumDismissTimeInterval:2.0];
     
-
-//    if ([launchOptions objectForKey:UIApplicationLaunchOptionsShortcutItemKey]) {
-//        
-//        
-////        return NO;
-//    }
-    
     [self setTabbarControllerWithIdentifier:nil];
     [self configShortCutItems];
     return YES;
@@ -98,7 +91,7 @@
     NSInteger groups = [LZSqliteTool LZSelectElementCountFromTable:LZSqliteGroupTableName];
     NSInteger count = [LZSqliteTool LZSelectElementCountFromTable:LZSqliteDataTableName];
     NSUserDefaults *us = [NSUserDefaults standardUserDefaults];
-    BOOL isDataInit = [us objectForKey:@"dataAlreadyInit"];
+    BOOL isDataInit = [[us objectForKey:@"dataAlreadyInit"] boolValue];
     if (count <= 0 && groups <= 0 && !isDataInit) {
         
         [self creatData];

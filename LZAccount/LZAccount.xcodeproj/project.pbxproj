@@ -10,6 +10,7 @@
 		4421CD6ECAC0A643C61EAAE4 /* libPods-LZAccountTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073916FD77C712786F2B441E /* libPods-LZAccountTests.a */; };
 		62A2205B6934E9204C4502B7 /* libPods-LZAccountUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CC2E8240A9AB366A49B386 /* libPods-LZAccountUITests.a */; };
 		662C7D8E97DD080D0D915744 /* libPods-LZAccount.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8817ABAC46C47835AFA7D /* libPods-LZAccount.a */; };
+		910BBD261E94835700C9DD53 /* LZScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BBD251E94835700C9DD53 /* LZScreenTool.m */; };
 		912BD9CF1E1242A400DF19D1 /* add_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912BD9CD1E1242A400DF19D1 /* add_new@2x.png */; };
 		912BD9D01E1242A400DF19D1 /* add_new@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912BD9CE1E1242A400DF19D1 /* add_new@3x.png */; };
 		912BD9D31E12434B00DF19D1 /* save@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912BD9D11E12434B00DF19D1 /* save@3x.png */; };
@@ -80,7 +81,6 @@
 		919827841DB9AF8A00E6233A /* LZNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198277F1DB9AF8A00E6233A /* LZNumberView.m */; };
 		919827851DB9AF8A00E6233A /* LZPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919827811DB9AF8A00E6233A /* LZPasswordViewController.m */; };
 		9198278D1DB9C52500E6233A /* LZScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9198278C1DB9C52500E6233A /* LZScreenViewController.m */; };
-		919827911DB9C5A800E6233A /* LZScreenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 919827901DB9C5A800E6233A /* LZScreenTool.m */; };
 		919827931DB9E25400E6233A /* lunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 919827921DB9E25400E6233A /* lunch@2x.png */; };
 		91B44B741D92595200A9461A /* LZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B44B731D92595200A9461A /* LZWebViewController.m */; };
 		91CE42821DBDF94E0090650F /* LZGroupSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CE42811DBDF94E0090650F /* LZGroupSingleViewController.m */; };
@@ -155,6 +155,8 @@
 		6D9A5006B9A6E884A54625E8 /* Pods-LZAccount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZAccount.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZAccount/Pods-LZAccount.release.xcconfig"; sourceTree = "<group>"; };
 		83FC343789AEB1BB30A7F098 /* Pods-LZAccountUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZAccountUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZAccountUITests/Pods-LZAccountUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C52101218E5938A7EA589C4 /* Pods-LZAccountTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZAccountTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZAccountTests/Pods-LZAccountTests.release.xcconfig"; sourceTree = "<group>"; };
+		910BBD241E94835700C9DD53 /* LZScreenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZScreenTool.h; sourceTree = "<group>"; };
+		910BBD251E94835700C9DD53 /* LZScreenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZScreenTool.m; sourceTree = "<group>"; };
 		912BD9CD1E1242A400DF19D1 /* add_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_new@2x.png"; sourceTree = "<group>"; };
 		912BD9CE1E1242A400DF19D1 /* add_new@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_new@3x.png"; sourceTree = "<group>"; };
 		912BD9D11E12434B00DF19D1 /* save@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@3x.png"; sourceTree = "<group>"; };
@@ -263,8 +265,6 @@
 		919827811DB9AF8A00E6233A /* LZPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPasswordViewController.m; sourceTree = "<group>"; };
 		9198278B1DB9C52500E6233A /* LZScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZScreenViewController.h; sourceTree = "<group>"; };
 		9198278C1DB9C52500E6233A /* LZScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZScreenViewController.m; sourceTree = "<group>"; };
-		9198278F1DB9C5A800E6233A /* LZScreenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZScreenTool.h; sourceTree = "<group>"; };
-		919827901DB9C5A800E6233A /* LZScreenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZScreenTool.m; sourceTree = "<group>"; };
 		919827921DB9E25400E6233A /* lunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lunch@2x.png"; sourceTree = "<group>"; };
 		91B44B721D92595200A9461A /* LZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWebViewController.h; sourceTree = "<group>"; };
 		91B44B731D92595200A9461A /* LZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWebViewController.m; sourceTree = "<group>"; };
@@ -390,6 +390,15 @@
 				83FC343789AEB1BB30A7F098 /* Pods-LZAccountUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		910BBD231E94835700C9DD53 /* LZScreenTool */ = {
+			isa = PBXGroup;
+			children = (
+				910BBD241E94835700C9DD53 /* LZScreenTool.h */,
+				910BBD251E94835700C9DD53 /* LZScreenTool.m */,
+			);
+			path = LZScreenTool;
 			sourceTree = "<group>";
 		};
 		912BD9AE1E121BBE00DF19D1 /* icons */ = {
@@ -678,15 +687,6 @@
 			path = "锁屏管理";
 			sourceTree = "<group>";
 		};
-		9198278E1DB9C59500E6233A /* LZSreenTool */ = {
-			isa = PBXGroup;
-			children = (
-				9198278F1DB9C5A800E6233A /* LZScreenTool.h */,
-				919827901DB9C5A800E6233A /* LZScreenTool.m */,
-			);
-			path = LZSreenTool;
-			sourceTree = "<group>";
-		};
 		91CE427F1DBDF9260090650F /* 分组内数据 */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,10 +910,10 @@
 		91F16EF11CF401AF003D4186 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				910BBD231E94835700C9DD53 /* LZScreenTool */,
 				91E82DA41E03ECA800BA2F46 /* LZSortClass */,
 				9172EFC81DF013E5002F7AAB /* LZiCloud */,
 				91718B5C1DCB19B2002674CF /* LZStringEncode */,
-				9198278E1DB9C59500E6233A /* LZSreenTool */,
 				91F933601D012E91001589D4 /* LZStringTool */,
 				91F933531D003108001589D4 /* LZPasswordTool */,
 				918E58A01CFBE79D0043329A /* LZColorTool */,
@@ -1118,7 +1118,6 @@
 				TargetAttributes = {
 					91F16EB11CF4011C003D4186 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = A7Z8D56N52;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.iCloud = {
@@ -1364,6 +1363,7 @@
 				91F933561D00311A001589D4 /* LZPasswordTool.m in Sources */,
 				91F933631D012E9D001589D4 /* LZStringTool.m in Sources */,
 				918879101CF9C515001EC49D /* LZDataModel.m in Sources */,
+				910BBD261E94835700C9DD53 /* LZScreenTool.m in Sources */,
 				91B44B741D92595200A9461A /* LZWebViewController.m in Sources */,
 				916E4A921DB6F98F00BFA62E /* PCCircleViewConst.m in Sources */,
 				91F16EBD1CF4011C003D4186 /* ViewController.m in Sources */,
@@ -1397,7 +1397,6 @@
 				91F916E91D02DA6500C48C70 /* LZFoldButton.m in Sources */,
 				91E82DAE1E03ECA800BA2F46 /* ChineseToPinyin.m in Sources */,
 				918E589A1CFBDAAD0043329A /* LZMainViewController.m in Sources */,
-				919827911DB9C5A800E6233A /* LZScreenTool.m in Sources */,
 				91E82DAC1E03ECA800BA2F46 /* LZSortTool.m in Sources */,
 				91F16EB71CF4011C003D4186 /* main.m in Sources */,
 				91E82DAD1E03ECA800BA2F46 /* NSObject+LZSortKey.m in Sources */,
@@ -1574,7 +1573,7 @@
 				CODE_SIGN_ENTITLEMENTS = LZAccount/LZAccount.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = A7Z8D56N52;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LZAccount/LZPrefixHeader.pch;
@@ -1598,7 +1597,7 @@
 				CODE_SIGN_ENTITLEMENTS = LZAccount/LZAccount.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = A7Z8D56N52;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LZAccount/LZPrefixHeader.pch;

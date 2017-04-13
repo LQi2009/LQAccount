@@ -25,19 +25,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-//    LZLog(@">>%@",self.navigationController.viewControllers);
-//    if (self.navigationController.viewControllers.count > 0) {
-//        
-//        AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-//        
-//        del.sideMenu.panMode = MFSideMenuPanModeDefault;
-//    } else {
-//        
-//        AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-//        
-//        del.sideMenu.panMode = MFSideMenuPanModeSideMenu;
-//    }
+
 }
 
 - (void)viewDidLoad {
