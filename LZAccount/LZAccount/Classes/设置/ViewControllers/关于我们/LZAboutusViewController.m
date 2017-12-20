@@ -70,7 +70,7 @@ NSString const * _Nonnull appID = @"1123570268";
     
     
     UILabel *lab = [[UILabel alloc]init];
-    lab.text = @"Copyright© 2016 \nthe APP Developer All Rights Reserved";
+    lab.text = @"Copyright© 2016 \nthe APP Developer LQiqiang All Rights Reserved";
     lab.font = [UIFont systemFontOfSize:12];
     lab.textColor = LZColorFromHex(0x555555);
     lab.textAlignment = NSTextAlignmentCenter;
@@ -83,7 +83,7 @@ NSString const * _Nonnull appID = @"1123570268";
     
     
     [iconImage mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.view).offset(3*LZNavigationHeight);
+        make.top.mas_equalTo(self.view).offset(2*LZNavigationHeight);
         make.centerX.mas_equalTo(self.view);
         make.height.and.with.mas_equalTo(@100);
     }];
@@ -105,7 +105,7 @@ NSString const * _Nonnull appID = @"1123570268";
     [lab mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(self.view);
         make.left.and.right.mas_equalTo(self.view);
-        make.bottom.mas_equalTo(self.view.mas_bottom).offset(-50);
+        make.bottom.mas_equalTo(self.view.mas_bottom).offset(-60);
         make.height.mas_equalTo(@40);
     }];
 }
