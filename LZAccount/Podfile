@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'LZAccount' do
+pod 'Masonry'
+pod 'FMDB'
+pod 'SVProgressHUD'
+
+#0代码解决键盘遮挡输入框问题
+pod 'IQKeyboardManager'
+
+end
+
+target 'LZAccountTests' do
+
+end
+
+target 'LZAccountUITests' do
+
+end
+
