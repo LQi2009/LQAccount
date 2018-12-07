@@ -50,8 +50,6 @@
 		916E4AB41DB707F100BFA62E /* gesture_introduce.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E4AAB1DB707F100BFA62E /* gesture_introduce.png */; };
 		916E4AB51DB707F100BFA62E /* gesture_introduce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E4AAC1DB707F100BFA62E /* gesture_introduce@2x.png */; };
 		916E4AB61DB707F100BFA62E /* gesture_introduce@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E4AAD1DB707F100BFA62E /* gesture_introduce@3x.png */; };
-		916E4AB71DB707F100BFA62E /* gesture_unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E4AAE1DB707F100BFA62E /* gesture_unlock.png */; };
-		916E4AB81DB707F100BFA62E /* gesture_unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 916E4AAF1DB707F100BFA62E /* gesture_unlock@2x.png */; };
 		91718B691DCB19CC002674CF /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 91718B5F1DCB19CC002674CF /* AESCrypt.m */; };
 		91718B6A1DCB19CC002674CF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 91718B601DCB19CC002674CF /* LICENSE */; };
 		91718B6B1DCB19CC002674CF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 91718B621DCB19CC002674CF /* NSData+Base64.m */; };
@@ -102,7 +100,6 @@
 		91F22CF91E10CC140017825E /* LZResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F22CF71E10CC140017825E /* LZResultViewController.m */; };
 		91F916E91D02DA6500C48C70 /* LZFoldButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F916E81D02DA6500C48C70 /* LZFoldButton.m */; };
 		91F916EC1D02DA7800C48C70 /* address_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F916EA1D02DA7800C48C70 /* address_select@2x.png */; };
-		91F916ED1D02DA7800C48C70 /* arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F916EB1D02DA7800C48C70 /* arrow_right@2x.png */; };
 		91F916F01D02DC3100C48C70 /* LZGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F916EF1D02DC3100C48C70 /* LZGroupTableViewCell.m */; };
 		91F916F31D02E15500C48C70 /* LZGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F916F21D02E15500C48C70 /* LZGroupViewController.m */; };
 		91F932891CFE6885001589D4 /* butt_18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F932871CFE6885001589D4 /* butt_18@2x.png */; };
@@ -208,8 +205,6 @@
 		916E4AAB1DB707F100BFA62E /* gesture_introduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_introduce.png; sourceTree = "<group>"; };
 		916E4AAC1DB707F100BFA62E /* gesture_introduce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_introduce@2x.png"; sourceTree = "<group>"; };
 		916E4AAD1DB707F100BFA62E /* gesture_introduce@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_introduce@3x.png"; sourceTree = "<group>"; };
-		916E4AAE1DB707F100BFA62E /* gesture_unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_unlock.png; sourceTree = "<group>"; };
-		916E4AAF1DB707F100BFA62E /* gesture_unlock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_unlock@2x.png"; sourceTree = "<group>"; };
 		91718B5E1DCB19CC002674CF /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
 		91718B5F1DCB19CC002674CF /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
 		91718B601DCB19CC002674CF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -306,7 +301,6 @@
 		91F916E71D02DA6500C48C70 /* LZFoldButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFoldButton.h; sourceTree = "<group>"; };
 		91F916E81D02DA6500C48C70 /* LZFoldButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFoldButton.m; sourceTree = "<group>"; };
 		91F916EA1D02DA7800C48C70 /* address_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "address_select@2x.png"; sourceTree = "<group>"; };
-		91F916EB1D02DA7800C48C70 /* arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_right@2x.png"; sourceTree = "<group>"; };
 		91F916EE1D02DC3100C48C70 /* LZGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZGroupTableViewCell.h; sourceTree = "<group>"; };
 		91F916EF1D02DC3100C48C70 /* LZGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZGroupTableViewCell.m; sourceTree = "<group>"; };
 		91F916F11D02E15500C48C70 /* LZGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZGroupViewController.h; sourceTree = "<group>"; };
@@ -490,8 +484,6 @@
 				916E4AAB1DB707F100BFA62E /* gesture_introduce.png */,
 				916E4AAC1DB707F100BFA62E /* gesture_introduce@2x.png */,
 				916E4AAD1DB707F100BFA62E /* gesture_introduce@3x.png */,
-				916E4AAE1DB707F100BFA62E /* gesture_unlock.png */,
-				916E4AAF1DB707F100BFA62E /* gesture_unlock@2x.png */,
 			);
 			path = GestureImages;
 			sourceTree = "<group>";
@@ -985,7 +977,6 @@
 			isa = PBXGroup;
 			children = (
 				91F916EA1D02DA7800C48C70 /* address_select@2x.png */,
-				91F916EB1D02DA7800C48C70 /* arrow_right@2x.png */,
 				91F916E71D02DA6500C48C70 /* LZFoldButton.h */,
 				91F916E81D02DA6500C48C70 /* LZFoldButton.m */,
 			);
@@ -1118,6 +1109,7 @@
 				TargetAttributes = {
 					91F16EB11CF4011C003D4186 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = M5AQP3WXJE;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.iCloud = {
@@ -1164,7 +1156,6 @@
 				912BD9F11E1258BB00DF19D1 /* hidden_password@2x.png in Resources */,
 				912BD9E41E1249CF00DF19D1 /* main_unselected@3x.png in Resources */,
 				912BD9E31E1249CF00DF19D1 /* main_unselected@2x.png in Resources */,
-				916E4AB71DB707F100BFA62E /* gesture_unlock.png in Resources */,
 				91F932951CFE7572001589D4 /* arrow_up@2x.png in Resources */,
 				91F16EC51CF4011C003D4186 /* LaunchScreen.storyboard in Resources */,
 				912BD9E91E1249CF00DF19D1 /* setting_selected@2x.png in Resources */,
@@ -1186,14 +1177,12 @@
 				912BD9E71E1249CF00DF19D1 /* search_unselected@2x.png in Resources */,
 				91F9328A1CFE6885001589D4 /* butt_18@3x.png in Resources */,
 				912BD9EA1E1249CF00DF19D1 /* setting_selected@3x.png in Resources */,
-				91F916ED1D02DA7800C48C70 /* arrow_right@2x.png in Resources */,
 				912BD9E11E1249CF00DF19D1 /* main_selected@2x.png in Resources */,
 				91F916EC1D02DA7800C48C70 /* address_select@2x.png in Resources */,
 				912BD9D01E1242A400DF19D1 /* add_new@3x.png in Resources */,
 				912BD9E21E1249CF00DF19D1 /* main_selected@3x.png in Resources */,
 				912BD9D31E12434B00DF19D1 /* save@3x.png in Resources */,
 				91F9329E1CFE8E14001589D4 /* houtui@2x.png in Resources */,
-				916E4AB81DB707F100BFA62E /* gesture_unlock@2x.png in Resources */,
 				912BD9EC1E1249CF00DF19D1 /* setting_unselected@3x.png in Resources */,
 				91F932941CFE7572001589D4 /* arrow_right@2x.png in Resources */,
 				91F9329F1CFE8E14001589D4 /* houtui@3x.png in Resources */,
@@ -1573,7 +1562,7 @@
 				CODE_SIGN_ENTITLEMENTS = LZAccount/LZAccount.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M5AQP3WXJE;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LZAccount/LZPrefixHeader.pch;
@@ -1581,7 +1570,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LINKER_DISPLAYS_MANGLED_NAMES = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.LZ-ZHZS";
+				PRODUCT_BUNDLE_IDENTIFIER = ".com.artup.LZ-ZHZS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1597,7 +1586,7 @@
 				CODE_SIGN_ENTITLEMENTS = LZAccount/LZAccount.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = M5AQP3WXJE;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LZAccount/LZPrefixHeader.pch;
@@ -1605,7 +1594,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LINKER_DISPLAYS_MANGLED_NAMES = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artup.LZ-ZHZS";
+				PRODUCT_BUNDLE_IDENTIFIER = ".com.artup.LZ-ZHZS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

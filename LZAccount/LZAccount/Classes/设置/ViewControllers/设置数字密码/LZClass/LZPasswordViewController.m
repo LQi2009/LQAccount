@@ -141,6 +141,7 @@
             
             LZNumberView *first = [[LZNumberView alloc]init];
             first.tag = 100;
+            first.style = LZNumberViewStyleCustom;
             first.delegate = self;
             first.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
             [self.scrollView addSubview:first];
@@ -148,6 +149,7 @@
             
             LZNumberView *second = [[LZNumberView alloc]init];
             second.tag = 101;
+            second.style = LZNumberViewStyleCustom;
             second.delegate = self;
             second.frame = CGRectMake(CGRectGetWidth(self.view.frame), 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame));
             [self.scrollView addSubview:second];

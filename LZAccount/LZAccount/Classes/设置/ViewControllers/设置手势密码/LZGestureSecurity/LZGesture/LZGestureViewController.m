@@ -180,6 +180,7 @@ static NSString *firstGesturePsw;
         
         _lockView = [[PCCircleView alloc]init];
         _lockView.delegate = self;
+        _lockView.clip = NO;
         [self.view addSubview:_lockView];
     }
     
