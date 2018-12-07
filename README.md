@@ -69,6 +69,8 @@ APP的整体功能仅是保存个人的一些信息, 然后辅助各种安全验
 <br>
 ![数字密码设置页](http://upload-images.jianshu.io/upload_images/1928848-79b058ba9a3a8f03.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+# 协议 BSD 3-Clause "New" or "Revised" License
+本应用代码，仅限学习使用，禁止商用！
 
 # 欢迎Star,或者Fork, 联系我: 302934443, [简书](http://www.jianshu.com/u/2846c3d3a974)
 # (完)
