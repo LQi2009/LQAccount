@@ -57,7 +57,6 @@
 		91718B6D1DCB19CC002674CF /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 91718B661DCB19CC002674CF /* NSString+Base64.m */; };
 		91718B6E1DCB19CC002674CF /* LZStringEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 91718B681DCB19CC002674CF /* LZStringEncode.m */; };
 		9172EFC71DF00FF0002F7AAB /* LZiCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9172EFC61DF00FF0002F7AAB /* LZiCloudViewController.m */; };
-		9172EFCB1DF013F9002F7AAB /* LZiCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 9172EFCA1DF013F9002F7AAB /* LZiCloud.m */; };
 		917A690E1DB62601008F9443 /* LZAboutusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A68BA1DB62601008F9443 /* LZAboutusViewController.m */; };
 		917A690F1DB62601008F9443 /* LZIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A68BC1DB62601008F9443 /* LZIntroduceViewController.m */; };
 		917A69221DB62601008F9443 /* LZNumSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A68E11DB62601008F9443 /* LZNumSettingViewController.m */; };
@@ -121,7 +120,6 @@
 		91F932AF1CFEB54E001589D4 /* LZRemarkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F932AE1CFEB54E001589D4 /* LZRemarkTableViewCell.m */; };
 		91F932B41CFEC92A001589D4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F932B31CFEC92A001589D4 /* icon@2x.png */; };
 		91F933071CFED97C001589D4 /* LZPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F933061CFED97C001589D4 /* LZPasswordView.m */; };
-		91F933561D00311A001589D4 /* LZPasswordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F933551D00311A001589D4 /* LZPasswordTool.m */; };
 		91F9335F1D012D63001589D4 /* LZGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F9335E1D012D63001589D4 /* LZGroupModel.m */; };
 		91F933631D012E9D001589D4 /* LZStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F933621D012E9D001589D4 /* LZStringTool.m */; };
 		91F9337C1D018092001589D4 /* LZSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F9337B1D018092001589D4 /* LZSqliteTool.m */; };
@@ -218,8 +216,6 @@
 		91718B681DCB19CC002674CF /* LZStringEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZStringEncode.m; sourceTree = "<group>"; };
 		9172EFC51DF00FF0002F7AAB /* LZiCloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZiCloudViewController.h; sourceTree = "<group>"; };
 		9172EFC61DF00FF0002F7AAB /* LZiCloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZiCloudViewController.m; sourceTree = "<group>"; };
-		9172EFC91DF013F9002F7AAB /* LZiCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZiCloud.h; sourceTree = "<group>"; };
-		9172EFCA1DF013F9002F7AAB /* LZiCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZiCloud.m; sourceTree = "<group>"; };
 		9172EFCC1DF01403002F7AAB /* LZAccount.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LZAccount.entitlements; sourceTree = "<group>"; };
 		917A68B91DB62601008F9443 /* LZAboutusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAboutusViewController.h; sourceTree = "<group>"; };
 		917A68BA1DB62601008F9443 /* LZAboutusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAboutusViewController.m; sourceTree = "<group>"; };
@@ -332,8 +328,6 @@
 		91F932B31CFEC92A001589D4 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		91F933051CFED97C001589D4 /* LZPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPasswordView.h; sourceTree = "<group>"; };
 		91F933061CFED97C001589D4 /* LZPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPasswordView.m; sourceTree = "<group>"; };
-		91F933541D00311A001589D4 /* LZPasswordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPasswordTool.h; sourceTree = "<group>"; };
-		91F933551D00311A001589D4 /* LZPasswordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPasswordTool.m; sourceTree = "<group>"; };
 		91F9335D1D012D63001589D4 /* LZGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZGroupModel.h; sourceTree = "<group>"; };
 		91F9335E1D012D63001589D4 /* LZGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZGroupModel.m; sourceTree = "<group>"; };
 		91F933611D012E9D001589D4 /* LZStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZStringTool.h; sourceTree = "<group>"; };
@@ -527,8 +521,6 @@
 			isa = PBXGroup;
 			children = (
 				9196024A1DF7971800DC9F96 /* LZiCloudDocument */,
-				9172EFC91DF013F9002F7AAB /* LZiCloud.h */,
-				9172EFCA1DF013F9002F7AAB /* LZiCloud.m */,
 			);
 			path = LZiCloud;
 			sourceTree = "<group>";
@@ -907,7 +899,6 @@
 				9172EFC81DF013E5002F7AAB /* LZiCloud */,
 				91718B5C1DCB19B2002674CF /* LZStringEncode */,
 				91F933601D012E91001589D4 /* LZStringTool */,
-				91F933531D003108001589D4 /* LZPasswordTool */,
 				918E58A01CFBE79D0043329A /* LZColorTool */,
 				9188790A1CF9C4B2001EC49D /* LZSqliteTool */,
 			);
@@ -1003,15 +994,6 @@
 				91F916F21D02E15500C48C70 /* LZGroupViewController.m */,
 			);
 			name = "编辑页";
-			sourceTree = "<group>";
-		};
-		91F933531D003108001589D4 /* LZPasswordTool */ = {
-			isa = PBXGroup;
-			children = (
-				91F933541D00311A001589D4 /* LZPasswordTool.h */,
-				91F933551D00311A001589D4 /* LZPasswordTool.m */,
-			);
-			path = LZPasswordTool;
 			sourceTree = "<group>";
 		};
 		91F933601D012E91001589D4 /* LZStringTool */ = {
@@ -1349,7 +1331,6 @@
 			files = (
 				919827821DB9AF8A00E6233A /* LZItem.m in Sources */,
 				91F932A51CFE94FB001589D4 /* LZPasswordCell.m in Sources */,
-				91F933561D00311A001589D4 /* LZPasswordTool.m in Sources */,
 				91F933631D012E9D001589D4 /* LZStringTool.m in Sources */,
 				918879101CF9C515001EC49D /* LZDataModel.m in Sources */,
 				910BBD261E94835700C9DD53 /* LZScreenTool.m in Sources */,
@@ -1406,7 +1387,6 @@
 				916E4A901DB6F98F00BFA62E /* PCCircle.m in Sources */,
 				91F22CF11E10C1880017825E /* LZTabBar.m in Sources */,
 				91F932AC1CFEB0AE001589D4 /* LZDetailTableViewCell.m in Sources */,
-				9172EFCB1DF013F9002F7AAB /* LZiCloud.m in Sources */,
 				917A69261DB62601008F9443 /* TouchIdUnlock.m in Sources */,
 				916E4AA51DB6FED900BFA62E /* LZTouchIDViewController.m in Sources */,
 				918E58971CFBDA150043329A /* LZBaseNavigationController.m in Sources */,
